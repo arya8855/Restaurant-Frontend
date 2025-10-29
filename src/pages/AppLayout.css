@@ -1,0 +1,44 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.app-layout {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  background-color: #F0F5F3;
+}
+.app-header {
+  display: flex;
+  align-items: center;
+  /* gap: 1rem; */
+  background-color: #F0F5F3;
+  padding: 15px 30px;
+  height: 70px;
+}
+
+.main-container {
+  display: flex;
+  flex: 1;
+  overflow: hidden;
+}
+
+.sidebar {
+  width: 4vw;
+  margin: 0 1vw;
+  background-color: #fff;
+  padding: 20px;
+  color: white;
+  border-radius: 40px;
+}
+
+.dashboard-content {
+  flex: 1;
+  padding: 30px;
+  margin-right: 2vw;
+  overflow-y: auto;
+  background-color: #fff;
+  border-radius: 20px;
+  
+}

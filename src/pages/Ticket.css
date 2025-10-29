@@ -1,0 +1,95 @@
+.ticket-card {
+  border-radius: 16px;
+  padding: 16px;
+  width: 23vw;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: small;
+  color: #666;
+}
+.ticket-card.dinein {
+  background-color: #FFE3BC;
+}
+
+.ticket-card.takeaway {
+  background-color: #C2D4D9;
+}
+
+.ticket-card.done {
+  background-color: #B9F8C9;
+}
+
+.ticket-info-box {
+  background: #fff;
+  border-radius: 10px;
+  padding: 10px 14px;
+}
+
+.ticket-top {
+  position: relative;
+}
+
+.status-badge {
+  position: absolute;
+  top: 4px;
+  right: 0;
+  background: #fff3e0;
+  color: #b76e00;
+  border-radius: 12px;
+  padding: 6px 10px;
+  text-align: right;
+}
+
+.status-badge .main {
+  font-weight: 600;
+  display: block;
+}
+
+.status-badge .sub {
+  font-size: 12px;
+  opacity: 0.8;
+}
+.ticket-middle {
+  background: #fff;
+  border-radius: 10px;
+  padding: 10px 14px;
+}
+
+.dish-item {
+  display: flex;
+  justify-content: space-between;
+  margin: 4px 0;
+  font-size: 14px;
+}
+
+.cooking-instructions {
+  font-size: 13px;
+  color: #555;
+  margin-top: 6px;
+}
+.ticket-bottom {
+  display: flex;
+  justify-content: center;
+}
+
+.status-button {
+  border: none;
+  border-radius: 20px;
+  padding: 8px 18px;
+  font-weight: 600;
+  color: white;
+  cursor: pointer;
+}
+
+.status-button.processing {
+  background-color: #FDC474;
+  color: #D87300;
+}
+
+.status-button.done {
+  background-color: #31FF65;
+  color: #0E912F;
+}

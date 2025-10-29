@@ -1,0 +1,19 @@
+.menu-container {
+  padding: 30px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  min-height: 100vh;
+}
+.menu-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 25px;
+  justify-items: center;
+}
+
+.error-message,
+.loading-message {
+  text-align: center;
+  color: #777;
+  font-size: 18px;
+  margin-top: 50px;
+}
